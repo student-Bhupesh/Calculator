@@ -63,3 +63,45 @@ button{
     cursor: pointer;
 }
 
+@media only screen and (max-width: 768px) {
+    
+    *{
+        width: 115%;
+    }
+    body {
+        justify-content: flex-start; /* Align calculator to the left */
+        padding-left: 20px; /* Add padding to body */
+        padding-right: 20px;
+    }
+
+    .calculator {
+        width: 100%;
+        max-width: none; /* Remove max-width for full width */
+    }
+}
+
+@media only screen and (max-width: 625px) {
+    
+    *{
+        width: 130%;
+    }
+    */
+}
+
+/* Media queries for mobile devices */
+@media only screen and (max-width: 480px) {
+    *{
+        width: 125%;
+    }
+    input {
+        font-size: 30px; /* Reduce font size for smaller screens */
+    }
+
+    button {
+        width: 50px;
+        height: 40px;
+        font-size: 16px; /* Reduce font size for smaller screens */
+        margin: 8px;
+    }
+}
+
